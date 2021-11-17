@@ -15,7 +15,7 @@ import java.util.List;
 import java.util.UUID;
 
 @RestController()
-@RequestMapping("/api/v1")
+@RequestMapping("/")
 @CrossOrigin(origins = "http://localhost:3000")
 public class DashboardController {
     @Autowired
